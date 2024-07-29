@@ -11,6 +11,8 @@ body{
     background-color: black;
 }
 
+/* header section start here */
+
 .container{
     width: 1099px;
     height: 660px;
@@ -169,3 +171,65 @@ img{
     letter-spacing: 1px;
     opacity: 0.7;
 }
+
+/* header style end */
+
+/* run section start here */
+
+.run-container{
+    width: 82%;
+    height: 371px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto 0 auto;
+}
+
+.run-details{
+    margin: 40px 0px 40px 54px;
+}
+
+.run-title{
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 57px;
+    margin-bottom: 14px;
+}
+
+.run-desc{
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    opacity: 0.7;
+    margin-bottom: 34px;
+}
+
+.run-btn button{
+    padding: 16px 40px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 42px;
+    margin-right: 14px;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: none;
+    margin-bottom: 40px;
+}
+
+.run-image{
+    margin: 32px;
+    width: 355px;
+    height: 312px;
+    margin: 30px;
+}
+
+.run-image img{
+   width: 355px;
+   height: 312px;
+   border-radius: 18px;
+}
+
+/* run section end here */
