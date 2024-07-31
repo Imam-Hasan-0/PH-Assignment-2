@@ -14,7 +14,8 @@ body{
 /* header section start here */
 
 .container{
-    width: 1099px;
+    /* width: 1099px; */
+    max-width: 100%;
     height: 660px;
     padding:55px 125px 35px 125px;
     background: linear-gradient(rgb(17, 17, 17), rgb(119, 119, 119, 90), rgb(17, 17, 17));
@@ -24,7 +25,8 @@ body{
     display: flex;
     justify-content: space-between;
     height: 55px;
-    width: 1040px;
+    /* width: 1040px; */
+    max-width: 100%;
     align-items: center;
     
 }
@@ -74,7 +76,7 @@ body{
     Letter-spacing: 0.5px;
     line-height: 24px;
     margin-top: 28px;
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
 .nav-btn button{
@@ -140,7 +142,7 @@ img{
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.5px;
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
 .nav-card-2{
@@ -169,10 +171,75 @@ img{
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 1px;
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
 /* header style end */
+
+/* havit start here */
+
+.havit-container{
+    width: 82%;
+    height: 452px;
+    color: white;
+    margin: 100px auto 0 auto;
+}
+
+.havit-info{
+    text-align: center;
+}
+
+.havit-title{
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.havit-desc{
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    opacity: 0.5;
+    margin-top: 14px;
+}
+
+.havit-card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    margin-top: 58px;
+}
+
+.card{
+    width: 231px;
+    height: 274px;
+    text-align: center;
+}
+
+.card-image img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+.card-info h4{
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 120%;
+    margin-top: 30px;
+}
+
+.card-info p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    opacity: 0.5;
+    margin-top: 6px;
+}
+
+/* havit end here */
 
 /* run section start here */
 
@@ -203,7 +270,7 @@ img{
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.3px;
-    opacity: 0.7;
+    opacity: 0.5;
     margin-bottom: 34px;
 }
 
@@ -233,3 +300,4 @@ img{
 }
 
 /* run section end here */
+
