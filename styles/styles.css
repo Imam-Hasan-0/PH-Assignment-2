@@ -1,53 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Inter:wght@100..900&family=Pinyon+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Inter", sans-serif;
 }
 
-body{
+body {
     background-color: black;
 }
 
 /* header section start here */
 
-.container{
+.container {
     /* width: 1099px; */
     max-width: 100%;
     height: 660px;
-    padding:55px 125px 35px 125px;
+    padding: 55px 125px 35px 125px;
     background: linear-gradient(rgb(17, 17, 17), rgb(119, 119, 119, 90), rgb(17, 17, 17));
 }
 
-.nav-container{
+.nav-container {
     display: flex;
     justify-content: space-between;
     height: 55px;
     /* width: 1040px; */
     max-width: 100%;
     align-items: center;
-    
+
 }
 
-.logo{
+.logo {
     color: rgb(230, 83, 60);
     font-size: 2.1rem;
     font-weight: 800;
 }
 
-.nav-link{
+.nav-link {
     list-style: none;
 }
 
-.home-link{
+.home-link {
     background-color: rgb(230, 83, 60);
     padding: 8px 19px;
     border-radius: 46px;
 }
 
-.nav-link li a{
+.nav-link li a {
     margin-left: 47px;
     text-decoration: none;
     color: white;
@@ -56,7 +56,7 @@ body{
     line-height: 120%;
 }
 
-.nav-title{
+.nav-title {
     color: white;
     font-size: 4.66rem;
     font-weight: 900;
@@ -64,12 +64,12 @@ body{
     margin-top: 95px;
 }
 
-.curve-font{
+.curve-font {
     font-family: "Aguafina Script", cursive;
     font-weight: 400;
 }
 
-.nav-disc{
+.nav-disc {
     color: white;
     Font-weight: 400;
     font-size: 1rem;
@@ -79,7 +79,7 @@ body{
     opacity: 0.5;
 }
 
-.nav-btn button{
+.nav-btn button {
     padding: 16px 40px;
     margin-top: 28px;
     background-color: rgb(230, 83, 60);
@@ -91,16 +91,16 @@ body{
     border: none;
 }
 
-.nav-body-container{
+.nav-body-container {
     display: flex;
     justify-content: space-between;
 }
 
-.nav-picture{
+.nav-picture {
     margin-top: 60px;
 }
 
-.nav-card-1{
+.nav-card-1 {
     width: 206px;
     height: 96px;
     background: rgba(48, 48, 48, 0.54);
@@ -113,12 +113,12 @@ body{
     margin-top: -180px;
 }
 
-img{
+img {
     width: 350px;
     height: 580px;
 }
 
-.ball{
+.ball {
     width: 40px;
     height: 40px;
     background: rgb(230, 83, 60);
@@ -126,18 +126,18 @@ img{
     margin: 28px 12px 28px 23px;
 }
 
-.card-text{
+.card-text {
     margin: 20px 23px 20px 0px;
 }
 
-.card-text h4{
+.card-text h4 {
     font-size: 1.5rem;
     font-weight: 900;
     line-height: 30px;
     letter-spacing: 0.3px;
 }
 
-.card-text p{
+.card-text p {
     font-size: 1rem;
     font-weight: 400;
     line-height: 24px;
@@ -145,7 +145,7 @@ img{
     opacity: 0.5;
 }
 
-.nav-card-2{
+.nav-card-2 {
     width: 206px;
     height: 96px;
     background: rgba(48, 48, 48, 0.54);
@@ -159,14 +159,14 @@ img{
     margin-left: 230px;
 }
 
-.card-2-text h4{
+.card-2-text h4 {
     font-size: 2rem;
     font-weight: 900;
     line-height: 40px;
     letter-spacing: 1px;
 }
 
-.card-2-text p{
+.card-2-text p {
     font-size: 0.9rem;
     font-weight: 400;
     line-height: 20px;
@@ -178,24 +178,24 @@ img{
 
 /* havit start here */
 
-.havit-container{
+.havit-container {
     width: 82%;
     height: 452px;
     color: white;
     margin: 100px auto 0 auto;
 }
 
-.havit-info{
+.havit-info {
     text-align: center;
 }
 
-.havit-title{
+.havit-title {
     font-size: 3rem;
     font-weight: 900;
     line-height: 120%;
 }
 
-.havit-desc{
+.havit-desc {
     font-size: 0.9rem;
     font-weight: 400;
     line-height: 24px;
@@ -204,33 +204,33 @@ img{
     margin-top: 14px;
 }
 
-.havit-card-container{
+.havit-card-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 50px;
     margin-top: 58px;
 }
 
-.card{
+.card {
     width: 231px;
     height: 274px;
     text-align: center;
 }
 
-.card-image img{
+.card-image img {
     width: 140px;
     height: 140px;
     border-radius: 50%;
 }
 
-.card-info h4{
+.card-info h4 {
     font-size: 1.1rem;
     font-weight: 600;
     line-height: 120%;
     margin-top: 30px;
 }
 
-.card-info p{
+.card-info p {
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
@@ -243,7 +243,7 @@ img{
 
 /* run section start here */
 
-.run-container{
+.run-container {
     width: 82%;
     height: 371px;
     border-radius: 18px;
@@ -254,18 +254,18 @@ img{
     margin: 100px auto 0 auto;
 }
 
-.run-details{
+.run-details {
     margin: 40px 0px 40px 54px;
 }
 
-.run-title{
+.run-title {
     font-size: 3rem;
     font-weight: 900;
     line-height: 57px;
     margin-bottom: 14px;
 }
 
-.run-desc{
+.run-desc {
     font-size: 0.9rem;
     font-weight: 400;
     line-height: 24px;
@@ -274,7 +274,7 @@ img{
     margin-bottom: 34px;
 }
 
-.run-btn button{
+.run-btn button {
     padding: 16px 40px;
     background-color: rgb(230, 83, 60);
     border-radius: 42px;
@@ -286,18 +286,128 @@ img{
     margin-bottom: 40px;
 }
 
-.run-image{
+.run-image {
     margin: 32px;
     width: 355px;
     height: 312px;
     margin: 30px;
 }
 
-.run-image img{
-   width: 355px;
-   height: 312px;
-   border-radius: 18px;
+.run-image img {
+    width: 355px;
+    height: 312px;
+    border-radius: 18px;
 }
 
 /* run section end here */
 
+/* team section start here */
+
+.team-container {
+    width: 82%;
+    height: 782px;
+    color: white;
+    margin: 100px auto 0 auto;
+    border: 1px solid red;
+}
+
+.team-title {
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 14px;
+}
+
+.team-desc {
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    opacity: 0.5;
+}
+
+
+
+/* team section end here */
+
+/* footer start here */
+
+.footer-bg {
+    max-width: 100%;
+    height: 490px;
+    background: rgb(34, 34, 34);
+    margin-top: 90px;
+    color: white;
+
+}
+
+.footer-info {
+    width: 82%;
+    height: 250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-main-title {
+    font-size: 4.38rem;
+    font-weight: 800;
+    line-height: 120%;
+    color: rgb(230, 83, 60);
+    margin: 65px 0 20px 0;
+}
+
+.footer-main-desc {
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    opacity: 0.5;
+}
+
+.footer-right {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    margin-top: 65px;
+}
+
+.footer-link-title {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 40px;
+    margin-top: 65px;
+}
+
+.footer-link li {
+    list-style: none;
+}
+
+.footer-link li {
+    margin-bottom: 20px;
+    opacity: 0.5;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.footer-line {
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    width: 82%;
+    margin: 130px auto 0 auto;
+
+}
+
+.footer-reserved {
+    color: rgb(255, 255, 255);
+    margin: 35px auto 35px auto;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    opacity: 0.5;
+}
+
+/* footer end here */
