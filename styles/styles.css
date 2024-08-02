@@ -308,7 +308,6 @@ img {
     height: 782px;
     color: white;
     margin: 100px auto 0 auto;
-    border: 1px solid red;
 }
 
 .team-title {
@@ -316,6 +315,7 @@ img {
     font-weight: 900;
     line-height: 120%;
     margin-bottom: 14px;
+    text-align: center;
 }
 
 .team-desc {
@@ -324,9 +324,52 @@ img {
     line-height: 24px;
     letter-spacing: 0.3px;
     opacity: 0.5;
+    text-align: center;
 }
 
+.team-card-container {
+    height: 600px;
+    margin-top: 60px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+}
 
+.team-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.team-card-details {
+    position: relative;
+}
+
+.team-card-details img {
+    width: 325px;
+    height: 270px;
+    display: block;
+    border-radius: 18px;
+}
+
+.card-info-text {
+    position: absolute;
+    bottom: 16px;
+    left: 20px;
+    text-align: left;
+}
+
+.card-info-text h3 {
+    font-size: 1.3rem;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 3px;
+}
+
+.card-info-text p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 120%;
+    opacity: 0.5;
+}
 
 /* team section end here */
 
