@@ -304,8 +304,7 @@ img {
 /* team section start here */
 
 .team-container {
-    width: 82%;
-    height: 782px;
+    width: 81%;
     color: white;
     margin: 100px auto 0 auto;
 }
@@ -328,15 +327,16 @@ img {
 }
 
 .team-card-container {
-    height: 600px;
     margin-top: 60px;
     border-radius: 18px;
     background: rgb(34, 34, 34);
+    padding: 20px;
 }
 
 .team-card{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
 .team-card-details {
