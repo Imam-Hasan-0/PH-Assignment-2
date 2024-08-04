@@ -11,6 +11,10 @@ body {
     background-color: black;
 }
 
+.hidden {
+    visibility: hidden;
+}
+
 /* header section start here */
 
 .container {
@@ -331,9 +335,10 @@ img {
     border-radius: 18px;
     background: rgb(34, 34, 34);
     padding: 20px;
+    margin-left: 25px;
 }
 
-.team-card{
+.team-card {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -454,3 +459,32 @@ img {
 }
 
 /* footer end here */
+
+@media screen and (max-width: 576px) {
+    .footer-info,
+    .footer-right{
+        flex-direction: column;
+        height: 900px;
+        align-items: flex-start;
+    }
+
+    .footer-bg{
+        background: rgb(34, 34, 34);
+        height: 1000px;
+    }
+
+    .footer-right, 
+    .footer-main-title, 
+    .footer-link-title{
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .footer-line{
+        margin-top: -10px;
+    }
+
+    .footer-reserved{
+        margin-bottom: 55px;
+    }
+}
