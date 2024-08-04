@@ -11,10 +11,6 @@ body {
     background-color: black;
 }
 
-.hidden {
-    visibility: hidden;
-}
-
 /* header section start here */
 
 .container {
@@ -461,6 +457,11 @@ img {
 /* footer end here */
 
 @media screen and (max-width: 576px) {
+    .hidden {
+        visibility: hidden;
+        display: none;
+    }
+/* footer section start */
     .footer-info,
     .footer-right{
         flex-direction: column;
@@ -486,5 +487,25 @@ img {
 
     .footer-reserved{
         margin-bottom: 55px;
+    }
+ /* team section start */
+    .team-card{
+        grid-template-columns: repeat(1, 1fr);
+        width: 95%;
+    }
+
+    .team-card-details img{
+        width: 100%;
+        margin-left: 9px;
+    }
+
+    .team-container{
+        width: 90%;
+    }
+
+    .team-card-container{
+        /* display: none; */
+        padding: 20px;
+        margin: 60px auto 0 auto;
     }
 }
