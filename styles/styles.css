@@ -180,7 +180,7 @@ img {
 
 .havit-container {
     width: 82%;
-    height: 452px;
+    /* height: 452px; */
     color: white;
     margin: 100px auto 0 auto;
 }
@@ -231,7 +231,7 @@ img {
 }
 
 .card-info p {
-    font-size: 14px;
+    font-size: 0.9rem;
     font-weight: 400;
     line-height: 18px;
     letter-spacing: 0.3px;
@@ -313,6 +313,11 @@ img {
     line-height: 120%;
     margin-bottom: 14px;
     text-align: center;
+}
+
+.team-info{
+    width: 60%;
+    margin: 0 auto;
 }
 
 .team-desc {
@@ -400,6 +405,7 @@ img {
 }
 
 .footer-main-desc {
+    width: 60%;
     font-size: 0.9rem;
     font-weight: 400;
     line-height: 24px;
@@ -455,9 +461,28 @@ img {
 /* footer end here */
 
 @media screen and (max-width: 576px) {
+    .havit-container{
+        margin-top: 65px;
+    }
+    
+    .havit-card-container{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .havit-title{
+        font-size: 1.6rem;
+    }
+
+    .card{
+        margin: 0 auto;
+    }
+
+    /* run section style */
     .run-container{
         flex-direction: column;
         padding: 20px;
+        margin-top: 65px;
     }
 
     .run-details{
@@ -465,14 +490,14 @@ img {
     }
 
     .run-title, 
-    .team-title{
+    .team-title {
         font-size: 2rem;
         line-height: 40px;
     }
 
     .run-desc{
-        line-height: 20px;
-        text-align: initial;
+        line-height: 25px;
+        text-align: left;
     }
 
     .run-btn button{
@@ -503,6 +528,10 @@ img {
         align-items: flex-start;
     }
 
+    .footer-main-desc{
+        width: 100%;
+    }
+
     .footer-bg{
         background: rgb(34, 34, 34);
         height: 1000px;
@@ -526,6 +555,10 @@ img {
     .team-card{
         grid-template-columns: repeat(1, 1fr);
         width: 95%;
+    }
+
+    .team-info{
+        width: 90%;
     }
 
     .team-card-details img{
