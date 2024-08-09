@@ -791,6 +791,52 @@ img {
         display: none;
     }
 
+    /* bmi section start */
+
+    .bmi-info {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .bmi-title, {
+        font-size: 2rem;
+    }
+
+    .bmi-container{
+        flex-direction: column;
+    }
+
+    .bmi-chart-title, 
+    .bmi-cal-title{
+        font-size: 1rem;
+    }
+
+    .bmi-table th{
+        font-size: 0.8rem;
+    }
+
+    .bmi-desc,
+    .bmi-cal-desc {
+        width: 80%;
+    }
+
+    .bmi-calculate{
+        width: 100%;
+    }
+
+    .calculate-text input {
+        width: 25%;
+    }
+    
+    .calculate-text-2 input{
+        width: 28.5%;
+    }
+
+    .calculate-text-3 input{
+        width: 77.5%;
+        padding: 20px;
+    }
+
     /* footer section start */
     .footer-info,
     .footer-right {
