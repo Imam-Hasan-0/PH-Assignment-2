@@ -417,6 +417,7 @@ img {
     border: none;
     margin-right: 12px;
     letter-spacing: 1.3px;
+    color: rgb(230, 83, 60);
 }
 
 .calculate-text-2 {
@@ -430,6 +431,7 @@ img {
     border: none;
     margin-right: 12px;
     font-weight: 600;
+    color: rgb(230, 83, 60);
 }
 
 .calculate-text-3 {
@@ -443,6 +445,7 @@ img {
     border: none;
     margin-right: 12px;
     font-weight: 600;
+    color: rgb(230, 83, 60);
 }
 
 .bmi-btn {
